@@ -11,6 +11,8 @@ body{
 }
 #sketch-container{
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 500px;
     height: 500px;
     border-style:solid;
@@ -28,7 +30,4 @@ body{
 h1{
     text-align: center;
 }
-#sketch-pixel{
-    display:flex;
-    flex: 1;
-}
+
