@@ -1,19 +1,34 @@
+body{
+    font-family:sans-serif;
+}
 #main-container{
     display:flex;
-    justify-content: space-between;
     align-content: center;
+    justify-content: space-between;
+    margin: auto;
+    width:90%;
+    max-width: 750px;
 }
 #sketch-container{
     display:flex;
     width: 500px;
     height: 500px;
+    border-style:solid;
+    border-color:black;
 }
+
 #settings-container{
     display:flex;
     width: 200px;
-    height: 400px;
+    height: 600px;
+    border-style:solid;
+    border-color:black;
 
 }
 h1{
     text-align: center;
+}
+#sketch-pixel{
+    display:flex;
+    flex: 1;
 }
