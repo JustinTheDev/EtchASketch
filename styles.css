@@ -32,7 +32,10 @@ body{
     height:auto;
     margin-top: 48px;
 }
-
+#update{
+    width:75px;
+    height:auto;
+}
 .resolution-adjust{
     margin-top:48px;
 }
