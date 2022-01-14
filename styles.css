@@ -7,22 +7,22 @@ body{
     justify-content: space-between;
     margin: auto;
     width:90%;
-    max-width: 750px;
+    max-width: 900px;
 }
 #sketch-container{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 500px;
-    height: 500px;
+    width: 640px;
+    height: 640px;
     border-style:solid;
     border-color:black;
 }
 
 #settings-container{
     text-align:center;
-    width: 200px;
-    height: 600px;
+    width: 175px;
+    height: 640px;
     border-style:solid;
     border-color:black;
 

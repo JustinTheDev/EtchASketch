@@ -22,17 +22,14 @@ function drawSketchZone(res){
     });
 }
 
-
-
 document.getElementById("clear").addEventListener("click", function(){
     let arr = document.querySelectorAll("#sketch-pixel");
     arr.forEach(function(elem){
-        elem.style.backgroundColor="white";
+        elem.style.backgroundColor = "white";
     });
 });
 
 document.getElementById("update").addEventListener("click", function(){
-    console.log("Update the res...");
     let slider = document.getElementById("res");
     let sketchDivs = document.getElementById("sketch-container");
     sketchDivs.innerHTML = "";

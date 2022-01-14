@@ -11,11 +11,10 @@
         <div id = "main-container">
             <div id = "settings-container">
                 <button id="clear">Clear</button>
-                <br>
                 <div class = "resolution-adjust">
                     <label for="rangeVal">Resolution: </label>
-                    <input type = "range" id = "res" name = "res" min = "8" max = "100" oninput="document.getElementById('rangeValLabel').innerText = this.value;"
-                    step ="4" name = "rangeVal" id = "rangeVal" value="16"></input>
+                    <input type = "range" id = "res" name = "res" min = "16" max = "64" oninput="document.getElementById('rangeValLabel').innerText = this.value;"
+                    step ="16" name = "rangeVal" id = "rangeVal" value="16"></input>
                     <div id="rangeValLabel"></div>
                     <button id="update">Update</button>
                 </div>
