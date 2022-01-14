@@ -17,7 +17,8 @@ function drawSketchZone(res){
     let divArray = document.querySelectorAll("#sketch-pixel");
     divArray.forEach(function(elem){
         elem.addEventListener("mouseenter", function(){
-            this.style.backgroundColor = "black";
+            let randomColor = Math.floor(Math.random()*16777215).toString(16);
+            this.style.backgroundColor = "#" + randomColor;
         });
     });
 }
